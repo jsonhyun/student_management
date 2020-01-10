@@ -10,9 +10,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import student_management.dto.Department;
 import student_management.ui.panel.AbsItemPanel;
-import student_management.ui.panel.DepartmentPanel;
 
 @SuppressWarnings("serial")
 public abstract class AbsManagementFrame<T> extends JFrame implements ActionListener {
