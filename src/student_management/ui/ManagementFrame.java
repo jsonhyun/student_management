@@ -30,5 +30,4 @@ public class ManagementFrame extends JFrame {
 			}
 		});
 	}
-
 }
