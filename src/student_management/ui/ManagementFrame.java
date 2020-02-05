@@ -15,7 +15,7 @@ public class ManagementFrame extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					//1 : 학생 관리 2 : 학과관리
+					//1 : 학생 관리, 2 : 학과관리, 3 : 직책 정보
 					StudentManagementFrame frame = new StudentManagementFrame();
 					frame.setVisible(true);
 					
